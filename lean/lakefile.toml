@@ -1,0 +1,9 @@
+name = "labagent"
+defaultTargets = ["LabAgent", "guard"]
+
+[[lean_lib]]
+name = "LabAgent"
+
+[[lean_exe]]
+name = "guard"
+root = "Main"
